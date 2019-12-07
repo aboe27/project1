@@ -6,7 +6,7 @@ public class Penghuni {
     String nohp;
     Double saldo;
     Double biaya;
-    Double sisa;
+    Double sisa = 0.0;
 
     public String getNama() {
         return nama;
@@ -48,11 +48,8 @@ public class Penghuni {
         this.biaya = biaya;
     }
 
-    public Double getSisa() {
-        return sisa;
-    }
-
-    public void setSisa(Double sisa) {
-        this.sisa = sisa;
+    public void hasil(){
+        sisa = saldo - biaya;
+        System.out.println(+sisa);
     }
 }

@@ -12,6 +12,14 @@ public class ApartemenApplication {
 		penghuni = new Penghuni();
 		penghuni.setNama("aboe");
 		System.out.println(penghuni.getNama());
+		penghuni.setAsal("padang");
+		System.out.println(penghuni.getAsal());
+		penghuni.setNohp("082284133322");
+		System.out.println(penghuni.getNohp());
+		penghuni.setSaldo(50.0);
+		penghuni.setBiaya(30.0);
+		penghuni.hasil();
+
 	}
 
 }
