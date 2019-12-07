@@ -8,6 +8,10 @@ public class ApartemenApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApartemenApplication.class, args);
+		Penghuni penghuni;
+		penghuni = new Penghuni();
+		penghuni.setNama("aboe");
+		System.out.println(penghuni.getNama());
 	}
 
 }
